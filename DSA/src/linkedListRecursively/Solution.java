@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Solution {
 
 	public static void main(String[] args) {
-
+		
 		//take the input from user
 		Node<Integer> head = takeInput();
 		
@@ -45,6 +45,15 @@ public class Solution {
 		
 		printLLRecursively(head.next);
 
+	}
+	
+	private static Node<Integer> insertRecursively(Node<Integer> head, int data, int pos) {
+		
+		if(pos == 0) {
+//			head.next
+		}
+		
+		return head;
 	}
 
 }
